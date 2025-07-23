@@ -88,7 +88,7 @@ const Upload = () => {
         setStatusText('Analysis complete, redirecting...');
         console.log(data);
 
-        // navigate(`/resume/${uuid}`);
+        navigate(`/resume/${uuid}`);
     }
 
     const [file, setFile] = useState<File | null>(null)

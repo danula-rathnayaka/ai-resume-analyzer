@@ -1,20 +1,40 @@
-# Welcome to React Router!
+# 🧠 AI Resume Analyzer
 
-A modern, production-ready template for building full-stack React applications using React Router.
+An AI-powered web application that analyzes resumes and matches them to job descriptions using advanced AI models. Built using React, TypeScript, Puter.js, and Tailwind CSS, this tool offers custom feedback, ATS scores, and seamless resume management in a modern and responsive UI.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
+## Introduction
+
+The **AI Resume Analyzer** helps users evaluate how well their resumes match a specific job description. It provides an ATS (Applicant Tracking System) score, tailored suggestions, and AI-based feedback. Resumes are uploaded, stored securely, and analyzed directly in the browser—no backend setup required.
+
+## Tech Stack
+
+- **React** – Component-based UI library  
+- **React Router v7** – Routing and navigation  
+- **TypeScript** – Static type-checking for JavaScript  
+- **Tailwind CSS** – Utility-first CSS framework  
+- **Zustand** – Lightweight state management  
+- **Vite** – Fast development server and build tool  
+- **Puter.js** – Client-side SDK for serverless auth, storage, and AI APIs  
 
 ## Features
 
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
+- **Authentication** – Handle user sign-in directly in the browser using Puter.js  
+- **Resume Upload** – Upload and store resumes with secure cloud access  
+- **AI Matching** – Match resumes to job listings with tailored ATS scoring and feedback  
+- **Reusable UI Components** – Clean, modular code structure with reusable components  
+- **Responsive Design** – Fully responsive layout for desktop, tablet, and mobile  
+- **Modern UI/UX** – Built with Tailwind CSS and `shadcn/ui` for sleek visuals  
+- **Code Reusability** – Designed with scalability and reusability in mind
 
-## Getting Started
+## Quick Start
+
+### Prerequisites
+
+Make sure the following are installed on your machine:
+
+- Git  
+- Node.js (>= 16)  
+- npm  
 
 ### Installation
 
@@ -54,34 +74,3 @@ docker build -t my-app .
 # Run the container
 docker run -p 3000:3000 my-app
 ```
-
-The containerized application can be deployed to any platform that supports Docker, including:
-
-- AWS ECS
-- Google Cloud Run
-- Azure Container Apps
-- Digital Ocean App Platform
-- Fly.io
-- Railway
-
-### DIY Deployment
-
-If you're familiar with deploying Node applications, the built-in app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-```
-├── package.json
-├── package-lock.json (or pnpm-lock.yaml, or bun.lockb)
-├── build/
-│   ├── client/    # Static assets
-│   └── server/    # Server-side code
-```
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
-
----
-
-Built with ❤️ using React Router.
